@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tipos de posicionamento</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body {
+				background: #007fc7;
+			}
+			#container {
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 50px;
+			}
+			h1{
+				position: static;
+			}
+			p{
+				width: 400px;
+
+			}
+			.static{
+				border: 1px solid red;
+				position: static;
+			}
+			.relative {
+				border: 1px solid red;
+				position: relative;
+				top: 20px;
+			}
+			.absolute{
+				border: 1px solid red;
+				position: 
+			}
+			.fixed{
+				border: 1px solid red;
+				position: fixed;
+				right: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="container">
+			<h1> Tipos de posicionamentos(Static, relative, absolute, fixed)</h1>
+			<p class="static"> <strong>(P1 STATIC )</strong>O valor static usado em position é o valor padrão de posicionamento. Os blocos ficam onde estão. O uso dessa declaração é para sobrescrever um posicionamento declarando anteriormente.</p>
+
+			<p class="relative"> <strong>(P2 RELATIVE )</strong>Ao declararmos position:relative sozinha não causa nenhum efeito no posicionamento. Se usarmos ela em conjunto com as propriedades top, right, bottom e left, movimenta o bloco de sua posição inicial para uma posição conforme declarado nas propriedades citadas.
+			O bloco sai de sua posição original e o espaço que ela ocupava é preservado.</p>
+			<br>
+			<p class="absolute"> <strong>(P3 ABSOLUTE)</strong>Para declararmos um bloco com posicionamento absoluto usamos a propriedade position:absolute. Um bloco com posicionamento absoluto retira o elemento da posição original, fazendo com que o lugar deixado seja ocupado pelo elemento que se segue.</p>
+			<p class="absolute"> <strong>(P3 ABSOLUTE)</strong>Para declararmos um bloco com posicionamento absoluto usamos a propriedade position:absolute. Um bloco com posicionamento absoluto retira o elemento da posição original, fazendo com que o lugar deixado seja ocupado pelo elemento que se segue.</p>
+			
+
+			<p class="fixed"> <strong>(P4 FIXED )</strong>O valor fixed usado em position deixa o bloco posicionado de maneira fixa em relação a uma referência. O contexto de posicionamento é sempre a área de renderização, exemplo, canto superior esquerdo da tela do navegador. O bloco com esse valor não se movimenta quando há rolagem na página. O IE6 não suporta essa declaração.</p>
+
+
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			
+		</div>
+	</body>
+</html>

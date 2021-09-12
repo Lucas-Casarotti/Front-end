@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    text-align: center;
+}
+.flex{
+    width: 600px;
+    height: 200px;
+    border: 1px solid rgb(27, 177, 84);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex0{
+    /* PRIMEIRO VALOR = FLEX - GROW   */
+    /* SEGUNDO VALOR  = FLEX - SHRINK */
+    /* TERCEIRO VALOR = FLEX - BASIS  */
+    flex: 1 1 1;
+}
+
+.item{
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+

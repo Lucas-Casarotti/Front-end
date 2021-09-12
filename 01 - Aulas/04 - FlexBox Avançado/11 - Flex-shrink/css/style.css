@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    text-align: center;
+}
+.flex{
+    width: 600px;
+    height: 200px;
+    border: 1px solid rgb(27, 177, 84);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.item{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.reduzir1{
+    flex-shrink: 0; /* ESSE ELEMENTO VAI PEDER A CAPACIDADE DE REDUZIR */
+}
+.reduzir2{
+    flex-shrink: 1;
+}
+.reduzir3{
+    flex-shrink: 2;
+}
+.reduzir4{
+    flex-shrink: 3;
+}

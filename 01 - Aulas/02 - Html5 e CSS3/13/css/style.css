@@ -1,0 +1,34 @@
+
+ul{
+	/* ZERANDO A MARGIN E PADDING QUE VEM PADRÃO */
+	margin: 0;
+	padding: 0;
+	list-style-type: none;  /* TIRANDO A MARCAÇÃO DO LI (A BOLINHA PRETA QUE FICA DO LADO) */
+}
+
+/* DEFININDO PARA OS A QUE ESTÃO DENTRO DO LI */
+li a{
+	width: 200px;
+	height: 40px;
+	display: block;     /* UTILIZANDO O DISPLAY: BLOCK PARA DEFIRIR A LARGURA */;
+	color: #000;		/* COR NO TEXTO DA TAG A */	
+	text-indent: 40px;  /* UTILIZANDO PARA INDENTAR O TEXTO, TIPO O PADDING */
+	line-height: 40px;      /* DEFINE A ALTURA DA LINHA QUE ESTA O TEXTO */
+	background: #f7b600 url(../imagens/menu.png); /* CASO A IMAGEM NAO CARREGA O BACKGROUD VAI FICAR COM A COR */
+}
+/* DEFININDO PARA TODOS OS A */
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;	/* COR DA TAG A QUANDO PASSA O MOUSE EM CIMA */
+}
+
+#index .index a, #sobre .sobre a, #servicos .servicos a, #contato .contato a{  /* SELECIONANDO A PAGINA QUANDO ESTIVER NELA */
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;	
+}

@@ -1,0 +1,20 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#produtos{
+	background: #ADD8E6;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: row; /* DIREÇÃO PARA ALINHAR OS ELEMENTOS */
+	/*	row / row-reverse / column / column-reverse */
+	flex-wrap: nowrap;    /* DEFINE A QUEBRA DE LAYOUT, MANTENDO ELES DENTRO DO CONTAINER */
+}
+.prod{
+	background: white;
+	border: 1px solid gray;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}

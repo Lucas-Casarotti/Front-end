@@ -1,0 +1,23 @@
+.conteudo{
+
+	border: 1px solid red;
+
+	/* 
+	(SERVE PARA PADDING(ESPAÇAMENTO INTERNO) E MARGIN(ESPAÇAMENTO EXTERNO))
+	--COLOCANDO PADDING EM UM DE CADA VEZ
+	padding: 10px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	--COLOCANDO PADDING EM TODOS DE UM VEZ SEMPRE NO SENTIDO HORÁRIO
+	CIMA,DIREITA,BAIXO E ESQUERTA
+	padding: 10px 30px 20px 20px;
+	--COLOCANDO PADDING PARA CIMA E PARA BAIXO NO MESMO VALOR E DIREITA ESQUERDA NO MESMO VALOR
+	padding: 20px 10px;
+	--COLOCANDO PADDING PARA TODOS COM O MESMO VALOR
+	padding: 20px;
+	*/
+	padding: 10px 30px 20px 20px;
+
+	width: 150px;
+}

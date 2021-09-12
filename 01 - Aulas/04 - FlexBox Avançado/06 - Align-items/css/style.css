@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    text-align: center;
+}
+.center, .stretch, .start, .end{
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(27, 177, 84);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;   
+    
+}
+.center{
+    align-items: center;
+    /* Itens posicionados ao redor do centro */
+}
+.stretch{
+    align-items: stretch;
+}
+.start{
+    align-items: flex-start;
+    /* Posiciona itens a partir do início */
+}
+.end{
+    align-items: flex-end;
+    /* Posiciona itens a partir do fim */
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;    /* CENTRALIZANDO O TEXTO DENTRO DO ITEM */
+}
+

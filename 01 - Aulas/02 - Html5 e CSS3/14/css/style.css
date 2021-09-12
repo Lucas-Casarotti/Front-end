@@ -1,0 +1,30 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	margin: 0px;				/* ZERANDO AS PROPRIEDADES PADRÃO */
+	padding: 0px;				/* ZERANDO AS PROPRIEDADES PADRÃO */
+	width: 100%;				/* TAMANHO DA BARRA DE NAVEGAÇÃO */
+	list-style-type: none;		/* DEIXANDO A LISTA SEM ESTILO(TIRANDO AS BOLINHA DO LADO ESQUERDO) */
+	background: #1874CD;		/* COR DA BARRA DE NAVEGAÇÃO */
+	float: left;				/* FLOAT PARA FLUTUAR A ESQUERDA E A LISTA FICA NA HORIZONTAL */
+}	
+
+ul li{
+	border: 1px solid #fff;		/* BORDER PARA SEPARAR OS LI (ITEM DA LISTA) */
+	float: left;				/* FLOAT PARA FLUTUAR A ESQUERDA E A LISTA FICA NA HORIZONTAL */
+}
+
+ul a{
+	display: block;				/* SEPARANDO EM BLOCOS */
+	text-decoration: none;		/* TIRANDO A DECORAÇÃO DOS LINKS */
+	padding: 0 2em;				/* ESPAÇAMENTO INTERNO ENTRE OS LINKS */
+	line-height: 2em;			/* DEFININDO A ALTURA DA LINHA */
+	color: #fff;				/* COR DOS LINKS */
+}
+
+ul a:hover{
+	background: #836FFF;	  /* DEFININDO UMA COR QUANDO O MOUSE PASSAR EM CIMA DO LINK */
+}

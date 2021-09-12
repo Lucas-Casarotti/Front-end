@@ -1,0 +1,32 @@
+*{
+	font-size: 20px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+h2{
+	font-size: 25px;
+}
+
+table{
+	width: 720px;
+	border-collapse: collapse; /*BORDER-COLLAPSE: COLLAPSE (DEIXA AS LINHAS DA TABELA JUNTAS) , BORDER-COLLAPSE: SEPAREDE (DEIXA AS LINHA SEPARADAS)*/
+}
+
+th, td{
+	padding: 10px;                              /* ESPAÇAMENTO INTERNO */
+}
+
+th{
+	text-align: left;
+	border-bottom: 1px solid #BEBEBE;			 /* ESTILIZANDO A BORDA DE BAIXO DO TH */
+	border-top: 1px solid #BEBEBE;			 /* ESTILIZANDO A BORDA DE CIMA DO TH */
+}	
+
+tr:hover{
+	background: #c3e6e5;
+}
+
+.numero{								/* CLASS PARA ALINHAR OS NUMEROS A DIREITA, SEGUINDO O PADRÃO. */
+	text-align: right;
+	color: green;
+}

@@ -1,0 +1,75 @@
+h1{
+	text-align: center;
+}
+.tabuleiro{
+	position: absolute;
+	width:400px;
+	height: 200px;
+	border: 10px solid #8B864E;
+	background-color: #EEDC82;
+	left: 36%;
+	text-align: center;
+	color: blue;
+}
+.quadrado1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	
+}
+.quadrado2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	right: 50%;
+}
+.quadrado3{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	right: 25%;
+}
+.quadrado4{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	right: 0;
+}
+.quadrado5{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	bottom: 0;
+	left: 0;
+}
+.quadrado6{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	bottom: 0;
+	right: 50%;
+}
+.quadrado7{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	bottom: 0;
+	right: 25%;
+}
+.quadrado8{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	bottom: 0;
+	right: 0;
+}
+
+

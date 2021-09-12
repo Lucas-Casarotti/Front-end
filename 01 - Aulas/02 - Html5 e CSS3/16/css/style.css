@@ -1,0 +1,25 @@
+fieldset {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid gray;
+}
+label{
+	display: block;		/* POR PADRÃO ELE É INLINE, ENTÃO MUDAMOS PARA BLOCK*/
+	cursor: pointer;
+}
+
+input[type="text"]{			/* SELETOR PARA APENAS INPUT DO TYPE TEXT*/
+	width: 280px;
+}
+input[type="password"]{
+	width: 280px;
+}
+textarea{
+	width: 300px;
+	height: 200px;
+}
+
+button{
+	border-radius: 10px;
+	outline: none;
+}

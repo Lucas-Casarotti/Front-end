@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+body{
+	background: linear-gradient(to bottom,blue,red);
+	/* PODE TAMBÉM DEVINIR A DIREÇÃO DO GRADIENT, EXEMPLO (TO BOTTOM, BLUE), A COR AZUL VAI DE BAIXO PARA CIMA */
+	
+}
+h1{
+	text-align: center;
+	margin-top:10%;
+}

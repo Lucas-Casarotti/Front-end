@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;		
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.cards{
+	width: 900px;
+  height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#card {
+	width: 300px;
+	height: 100%;
+	padding: 3rem 4rem;
+	border-radius: 0.5rem;
+}
+
+.card1{
+ 	background-color: rgb(3, 124, 98);
+}
+.card2{
+	background-color: rgb(253, 129, 136);
+}
+.card3{
+	background-color: rgb(129, 136, 253);
+}
+button{
+  margin-top: 5rem;
+  font-size: 15px;
+  padding: 0.5rem 2rem;
+  color: black;
+  background-color: white;
+  border-radius: 2rem;
+  outline: none;
+  border: solid 2px white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+button:focus{
+  outline: none;
+}
+
+button:hover{
+	background-color: transparent;
+	color: white;
+}
+
+.button1{
+	background-color: rgb(3, 124, 98);
+}
+.button2{
+	background-color: rgb(253, 129, 136);
+}
+.button3{
+	background-color: rgb(129, 136, 253);
+}
+
+p{
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 0.7rem;
+  text-align: justify;
+
+}
+h1{
+	text-align: center;
+	color: white;
+}

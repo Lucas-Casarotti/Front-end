@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	font-family: arial;
+}
+
+
+.container{
+	display: flex;					
+	justify-content: space-around;
+	align-items: center;
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+.item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+}

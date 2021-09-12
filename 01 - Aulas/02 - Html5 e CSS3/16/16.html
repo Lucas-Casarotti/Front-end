@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criando formulários</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form>
+
+		<fieldset>
+			<legend>Detalhes do contato</legend>
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome">
+			</div><br>
+			<div>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email">
+			</div><br>
+			<div>
+				<label for="url">URL:</label>
+				<input type="text" name="url" id="url">
+			</div><br>
+			<div>
+				<label for="senha">Senha:</label>
+				<input type="password" name="senha" id="senha">
+			</div>
+			<div>
+				<label>Lembrar senha</label>
+				Sim<input type="radio" name="sim">
+				Não<input type="radio" name="nao">
+			</div>
+			<div>
+				<label>Escolhe seu UF:</label>
+				<select>
+					<option>SP</option>
+					<option>RJ</option>
+				</select>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Outros</legend>
+			<label for="comentarios">Comentários</label>
+			<textarea name="comentarios" id="comentarios"></textarea><br>
+			<button>Enviar comentário</button>
+		</fieldset>
+
+	</form>
+	
+</body>
+</html>

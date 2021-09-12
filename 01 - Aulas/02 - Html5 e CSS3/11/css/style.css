@@ -1,0 +1,36 @@
+
+/* UTILIZANDO HERANÇA */
+*{
+	font-family: Arial, Helvetica, sans-serif;       /* SELETOR UNIVERSAL, VAI SELECIONAR TODOS E DEFINIR ESSA FORMATAÇÃO A TODOS */
+	font-size: 30px;
+}
+body{
+	color: blue;
+	/*BORDER E BACKGROUND NÃO SÃO HERDADOS*/
+}
+
+/* UTILIZANDO ESPECIFICIDADE, OU SEJA ESPECIFICANDO */
+#teste01 p{          /* ESPECIFICANDO QUE O PARÁGRAFO DO ID #TESTE01 É RED */
+	color: red; 
+}
+
+#teste02 p{ 
+	color: blue;   /* ESPECIFICANDO QUE O PARÁGRAFO DO ID #TESTE02 É BLUE */
+}
+
+p{
+	color: gray;  /* ESPECIFICANDO QUE TODOS OS PARÁGRAFO SERÁ GRAY, EXCETO OS ESPECIFICADOS */
+
+}
+
+h2 {
+	color: red;
+}
+
+/* EXEMPLO DE ESPECIFIDADE, SEMPRE O ID SERÁ MAIS ESPECIFICADO, DESTA FORMA O H2 SERÁ DA COR YELLOW */
+h2.blue{
+	color: blue;
+}
+h2#yellow{
+	color: yellow;
+}

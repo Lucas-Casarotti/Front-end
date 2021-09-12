@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 2%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.grow{
+    
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(27, 177, 84);
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanho1{
+    flex-grow: 0;
+}
+.tamanho2{
+    flex-grow: 1;
+}
+.tamanho3{
+    flex-grow: 2;
+}
+.tamanho4{
+    flex-grow: 6;
+}
+.item{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+

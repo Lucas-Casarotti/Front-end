@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@keyframes animacao{
+	from{  /* INICIO DA ANIMAÇÃO */
+		background: #87CEEB;
+		top: 0;
+		left: 0;
+	}
+	to{   /* FIM DA ANIMAÇÃO */
+		background: #CD5C5C;
+		border-radius: 50%;
+		top: 300px;
+		left: 300px;
+	}
+}
+.container{
+	position: relative;
+	width: 250px;
+	height: 200px;
+	background: #87CEEB;
+	animation-name: animacao;   		/* CHAMANDO A ANIMAÇÃO CRIADA */
+	animation-duration: 2s;     		/* DURAÇÃO DA ANIMAÇÃO */
+	/*animation-delay:  2s; /*       	/* DELAY DA ANIMAÇÃO */
+	animation-iteration-count: 2;		/* TOTAL DE VEZES QUE É PARA OCORRER A ANIMAÇÃO */
+	/* animation-direction: reverse;*/	/* DIREÇÃO NA QUAL A ANIMAÇÃO VAI COMEÇAR */
+
+}

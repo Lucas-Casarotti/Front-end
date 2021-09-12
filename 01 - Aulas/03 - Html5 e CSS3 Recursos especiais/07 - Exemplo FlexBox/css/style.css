@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+}
+
+h1{
+	text-align: center;
+}
+
+
+/* NAVBAR */
+header{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	background-color: #1C1C1C;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;		
+}
+ul{
+	list-style-type: none;
+}
+.logo{
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.navbar{
+	display: flex;
+	flex-wrap: wrap;
+}
+.navbar li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	margin-right:20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.navbar li a:hover {
+	background-color: #333;
+}
+
+/* PRODUTOS */
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container div{
+	flex: 1 1 300px; 
+	margin: 10px;
+	padding: 10px;
+}
+img{
+	width: 100%;
+	border-radius: 10px;
+}
