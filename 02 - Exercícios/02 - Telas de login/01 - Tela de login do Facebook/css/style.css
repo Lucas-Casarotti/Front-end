@@ -1,0 +1,99 @@
+body{
+	overflow-x: hidden; /* BARRA DE SCROLL ESCONDIDA */
+	background-color: rgb(243,242,242);
+}
+
+#principal{
+	width: 1400px;
+}
+
+#principal, #facebook{
+	width: 1300px;
+}
+#formulario{
+	float: right;
+	margin-top: -180px;
+	margin-right: -100px;
+	display: block;
+	text-align: center;
+	background-color: #FFF;
+	width: 500px;
+	height: 400px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.377);
+	border-radius: 1%;
+}
+
+#email, #senha{
+	width: 450px;
+	height: 60px;
+	font-size: 17px;
+	border-radius: 8px;
+	border: solid 1px #dddfe2;
+	margin-top: 12px;
+}
+#entrar{
+	width: 450px;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 6px;
+	border: solid 0.5px rgba(0, 0, 0, 0.438);
+	background-color: #1877f2;
+	border: none;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 12px;
+}
+
+#criar{
+	width: 180px;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 6px;
+	background-color: #00a400;
+	border: none;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 12px;
+}
+
+#criarPagina{
+	color: black;
+	float: right;
+	margin-top: 220px;
+	margin-right: -490px;
+	font-size: 18px;
+}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(36, 104, 231);
+	font-size: 70px;
+	margin-top: 220px;
+	margin-left: 150px;
+}
+
+h2{
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	margin-top: -20px;
+	margin-left: 150px;
+	font-weight: normal;
+	line-height: 32px;
+	width: 500px;
+}
+
+a{
+	color: #1877f2;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-bottom: solid 1px #dddfe2;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #1877f2;
+    box-shadow: 0 0 10px #1877f2;
+}
