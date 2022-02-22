@@ -1,5 +1,5 @@
 
-<h1 align="center">Projetos Frond-end</h1>
+<h1 align="center">Projetos frond-end</h1>
 
 
 ### 🛠 Tecnologias
